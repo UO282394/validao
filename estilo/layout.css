@@ -1,0 +1,54 @@
+body{
+    display : grid;
+    grid-template-areas: 
+    '. navegador navegador navegador .'
+    'cabecera cabecera cabecera cabecera cabecera'
+    'contenido contenido contenido contenido contenido'
+    'pie pie pie pie pie'
+    ;
+   
+   
+}
+main{
+ 
+    grid-area: contenido;
+    justify-self: center;   
+}
+section{
+    
+    padding-top: 0.4vw;
+    padding-bottom: 1.5vw;
+}
+nav{
+
+    grid-area : navegador;
+    padding-top: 0.9vw;
+    padding-bottom: 0.9vw;
+   
+   
+   
+   }
+header{
+    grid-area: cabecera;
+    
+  
+    justify-self: center;
+
+    
+    
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+footer{
+   
+    grid-area : pie;
+    display:flex;
+   
+}
+table{
+    display:grid;
+    justify-self: center;
+}
+
+

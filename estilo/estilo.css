@@ -1,0 +1,159 @@
+
+/*Especificidad: 001*/
+main{
+   color:white;
+    background-color:  #512bd4;
+}
+/*Especificidad: 001*/
+section {
+    color:black;
+   background-color: white;
+    
+}
+/*Especificidad: 001*/
+header
+{
+   height: 3.7em;
+    background-color: #512bd4;
+     color : white;
+     font-size: 1.8em;
+    padding-bottom: 2.55em;
+       
+
+
+   
+   
+}
+/*Especificidad: 001*/
+footer{
+    background-color: white;
+    color: gray;
+}
+
+
+ /*Especificidad: 001*/
+ h1{
+    
+    font-family: "Segoe UI Semibold", monospace;
+    padding-left: 37.45vw;
+    padding-right: 37.45vw;
+
+    
+ }
+ /*Especificidad: 001*/
+ h2{
+    
+    font-family: "Segoe UI Semibold", monospace;
+  
+    
+    
+    padding-left: 40.9vw;
+    padding-right: 26vw;
+
+    font-size:2.7em;
+}
+ /*Especificidad: 001*/
+h3{
+    font-family: "Segoe UI Semibold", monospace;
+   
+    font-size: 3ex;
+    
+    
+   
+}
+
+/*Especificidad: 001*/
+p{
+    font-family: Calibri,monospace;
+}
+
+
+/*Especificidad: 002*/
+nav a{
+
+    font-family: "Segoe UI Semibold", monospace;
+    margin-right: 2.5em;
+      
+ }
+ /*Especificidad: 011*/
+a:hover{
+    background-color: rgba(255, 255, 255, 0.508);
+    color:#902bd4;
+}
+/*Especificidad: 002*/
+main p{
+    font-size: 1.2em;
+    padding-left: 26vw;
+    padding-right: 26vw;
+}
+
+/*Especificidad: 002*/
+section p{
+    
+    font-size:1em;
+    padding-left: 0.5vw;
+    
+}
+/*Especificidad: 002*/
+footer p{
+    
+    margin-left:60vw;
+ 
+}
+/*Especificidad: 004*/
+section nav ul li{
+    margin-top: 0.5vw;
+}
+
+
+
+
+/*Especificidad: 001*/
+table{
+    border-collapse: collapse;
+    
+    
+}
+  /*Especificidad: 002*/
+
+table th{
+    border-style: solid;
+    font-family: calibri, monospace;
+    border-color:  #902bd4;
+  
+}
+/*Especificidad: 002*/
+table td{
+    border-style: solid;
+    font-family: calibri, monospace;
+    border-color:   #902bd4;
+    
+  
+}
+/*Especificidad: 001*/
+ul{
+    font-family: calibri, monospace;
+}
+/*Especificidad: 001*/
+video{
+    width:55%;
+    height:auto;
+}
+
+
+/*Especificidad: 002*/
+footer img{
+   max-width:100%;
+    height:auto;
+}
+/*Especificidad: 002*/
+section img{
+    width:40%;
+    height:auto;
+    padding-left: 28vw;
+    padding-right: 30vw;
+    
+}
+
+
+
